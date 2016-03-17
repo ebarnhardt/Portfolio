@@ -408,8 +408,8 @@ h2 {
 
 h5 {
   font-weight:400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 h6 {
@@ -422,7 +422,7 @@ h6 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#header {
   background-color: #11C9C0;
-  height: 100vh;
+  height: 600px;
   background-size: cover;
 }
 
@@ -472,54 +472,76 @@ h1 {
 /* Work
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #work {
-  position: relative;
-}
 
-.img-left {
-  float: left;
-  width: 50%;
-  position: absolute;
-  left: 0;
 }
 
 .title-right {
   float: right;
   width: 50%;
-  position: absolute;
+  height: 500px;
   right: 0;
-  background-color:#565FBF;
 }
 
-.localsound {
-  background-color:#565FBF;
+.img-left {
   height: 500px;
-}
-
-.local {
-  height: 500px;
-  background: url(../images/local-sound.png) no-repeat left bottom fixed; 
-  background-color: #272A31; 
   background-size: 50%;
+  float: left;
+  width: 50%;
+  left: 0;
 }
 
 .title {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 70px;
 }
 
 .title h2 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .title h5 {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .title .button {
   margin-top: 50px;
 }
+
+.localsound .img-left {
+  background: url(../images/local-sound.png) no-repeat left bottom fixed; 
+  background-color: #272A31; 
+  height: 500px;
+}
+
+.localsound .title{
+  background-color:#565FBF;
+}
+
+.localsound .title-right{
+  background-color:#565FBF;
+}
+
+.localsound, .gearcloset{
+  position: relative;
+}
+
+.gearcloset .img-left {
+  background: url(../images/gear-grid.png) no-repeat left bottom fixed; 
+  background-color: #FFF; 
+}
+
+.gearcloset .title {
+  background-color:#F7C734;
+}
+
+.gearcloset .title-right{
+  background-color:#F7C734;
+}
+
+
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
