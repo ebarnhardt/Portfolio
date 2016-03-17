@@ -123,8 +123,8 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova-soft",sans-serif;
+  font-style: normal;
   color: #222; }
 
 
@@ -391,6 +391,63 @@ hr {
   display: table;
   clear: both; }
 
+
+/* My Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h6 {
+  color: #FFF;
+  text-align: center;
+  font-family: "proxima-nova-soft",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#header {
+  background-color: #11C9C0;
+  height: 600px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+header .nav {
+ float: right;
+ margin-top: 10px;
+}
+
+
+header .nav ul {
+  list-style-type: none;
+  text-align: right;
+  padding-left: 5px;
+}
+
+header .nav ul li{
+  padding-right: 40px;
+  display: inline;
+}
+
+header .nav ul li a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.logo {
+  float: left;
+}
+
+h1 {
+  padding-top: 250px;
+}
+
+.arrow {
+  text-align: center;
+  padding-top: 160px;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
