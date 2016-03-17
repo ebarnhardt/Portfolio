@@ -171,20 +171,19 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
+  height: 47px;
   padding: 0 30px;
-  color: #555;
+  color: #FFF;
   text-align: center;
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border-radius: 2px;
+  border: 1px solid #FFF;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -197,8 +196,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
+  background-color: #FFF;
+  color: #272A31;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -394,7 +393,7 @@ hr {
 
 /* My Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   text-align: center;
   font-family: "proxima-nova-soft",sans-serif;
@@ -402,12 +401,29 @@ h1, h2, h3, h4, h6 {
   font-weight: 600;
 }
 
+h2 {
+  font-size: 50px;
+  line-height: 52px;
+}
+
+h5 {
+  font-weight:400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#header {
   background-color: #11C9C0;
-  height: 600px;
+  height: 100vh;
+  background-size: cover;
 }
 
 header {
@@ -436,17 +452,73 @@ header .nav ul li a{
   color: #FFF;
 }
 
+header .nav ul li a:hover{
+ font-weight: 900;
+}
+
 .logo {
   float: left;
 }
 
 h1 {
-  padding-top: 250px;
+  padding-top: 225px;
 }
 
 .arrow {
   text-align: center;
-  padding-top: 160px;
+  padding-top: 120px;
+}
+
+/* Work
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#work {
+  position: relative;
+}
+
+.img-left {
+  float: left;
+  width: 50%;
+  position: absolute;
+  left: 0;
+}
+
+.title-right {
+  float: right;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background-color:#565FBF;
+}
+
+.localsound {
+  background-color:#565FBF;
+  height: 500px;
+}
+
+.local {
+  height: 500px;
+  background: url(../images/local-sound.png) no-repeat left bottom fixed; 
+  background-color: #272A31; 
+  background-size: 50%;
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.title h2 {
+  margin-top: 100px;
+}
+
+.title h5 {
+  margin-top: 50px;
+}
+
+.title .button {
+  margin-top: 50px;
 }
 
 /* Media Queries
