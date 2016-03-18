@@ -516,7 +516,6 @@ h1 {
   height: 500px;
   margin: 0 auto;
   padding-left: 50%;
-
 }
 
 /* LocalSound */
@@ -569,7 +568,23 @@ h1 {
   background-color:#11C9C0;
 }
 
+/* Other
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#graphic  {
+  clear: both;
+  height: 300px;
+  background-color:#F7C734;
+}
 
+.more {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#graphic h3 {
+  margin-top: 50px;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
