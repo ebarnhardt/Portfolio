@@ -484,10 +484,9 @@ h1 {
 
 .img-left {
   height: 500px;
-  background-size: cover;
   float: left;
   width: 50%;
-  left: 20px;
+  left: 0;
 }
 
 .title {
@@ -513,11 +512,19 @@ h1 {
   position: relative;
 }
 
-/* LocalSound */
-.localsound .img-left {
-  background: url(../images/local-sound.png) no-repeat left bottom fixed; 
-  background-color: #272A31; 
+.image {
   height: 500px;
+  margin: 0 auto;
+  padding-left: 50%;
+
+}
+
+/* LocalSound */
+.localsound .image {
+  background: url(../images/local-sound.png);
+  background-color: #272A31; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .localsound .title{
@@ -530,9 +537,11 @@ h1 {
 
 /* Gear Closet */
 
-.gearcloset .img-left {
-  background: url(../images/gear-grid.png) no-repeat left bottom fixed; 
+.gearcloset .image {
+  background: url(../images/gear-grid.png);
   background-color: #FFF; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gearcloset .title {
@@ -549,9 +558,11 @@ h1 {
   background-color:#11C9C0;
 }
 
-.cabinet .img-left {
-  background: url(../images/cabinet.png) no-repeat left bottom fixed; 
+.cabinet .image {
+  background: url(../images/cabinet.png);
   background-color: #FFF; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cabinet .title {
