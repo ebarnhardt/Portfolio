@@ -586,6 +586,39 @@ div#graphic  {
   margin-top: 50px;
 }
 
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#about  {
+  clear: both;
+  height: 750px;
+  background-color:#3D414A;
+}
+
+#about h5 {
+  text-align: left;
+}
+
+#about h3 {
+  padding-top: 50px;
+}
+
+#about .six {
+  display: inline;
+  height: 100px;
+  width: 100px;
+  padding-left: 100px;
+}
+
+#about .row {
+  margin: 0 auto;
+  text-align: center;
+  margin-top:50px;
+}
+
+#about .more {
+  margin-top:5px;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
