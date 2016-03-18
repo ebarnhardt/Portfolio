@@ -397,7 +397,7 @@ body {
  margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
- margin-left: 0px
+ margin-left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -481,9 +481,6 @@ h1 {
 
 /* Work
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#work {
-
-}
 
 .title-right {
   float: right;
@@ -597,7 +594,7 @@ div#graphic  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#about  {
   clear: both;
-  height: 800px;
+  height: 820px;
   background-color:#3D414A;
 }
 
@@ -618,9 +615,6 @@ div#about  {
   text-align: center;
 }
 
-#about .more {
-
-}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
