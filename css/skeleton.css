@@ -616,6 +616,22 @@ div#about  {
   margin-top: 0;
 }
 
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+div#contact  {
+  clear: both;
+  height: 450px;
+  background-color:#272A31;
+}
+
+#contact p {
+  font-size: 14px;
+  color: #666971;
+  padding-top: 10px;
+}
+
+
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
