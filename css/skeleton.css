@@ -594,7 +594,7 @@ div#graphic  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#about  {
   clear: both;
-  height: 820px;
+  height: 850px;
   background-color:#3D414A;
 }
 
@@ -613,6 +613,7 @@ div#about  {
 #about .row {
   margin: 0 auto;
   text-align: center;
+  margin-top: 0;
 }
 
 
