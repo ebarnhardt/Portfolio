@@ -393,6 +393,7 @@ hr {
 
 /* My Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   text-align: center;
@@ -417,6 +418,9 @@ h6 {
   line-height: 16px;
 }
 
+h3 {
+  padding: 80px 0 20px 0;
+}
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -493,7 +497,7 @@ h1 {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 .title h2 {
@@ -572,19 +576,16 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#graphic  {
   clear: both;
-  height: 300px;
+  height: 400px;
   background-color:#F7C734;
 }
 
 .more {
   text-align: center;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 30px 0;
 }
 
-#graphic h3 {
-  margin-top: 50px;
-}
 
 /* About
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -598,9 +599,6 @@ div#about  {
   text-align: left;
 }
 
-#about h3 {
-  padding-top: 50px;
-}
 
 #about .six {
   display: inline;
@@ -612,11 +610,10 @@ div#about  {
 #about .row {
   margin: 0 auto;
   text-align: center;
-  margin-top:50px;
 }
 
 #about .more {
-  margin-top:5px;
+
 }
 
 /* Media Queries
