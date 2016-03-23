@@ -652,6 +652,9 @@ div#contact  {
   background-color:#272A31;
 }
 
+.section {
+  clear: both;
+}
 .section.dark
   {color: #FFF;}
 
@@ -727,9 +730,67 @@ div#contact  {
   clear: both;
   background-image: url(../images/ls/guitar.png);
   background-size: cover;
-  background-color: #565FBF;
 }
 
+h4.feature {
+  color: #3D414A;
+  padding-top: 20px;
+}
+
+.icon {
+  text-align: center;
+  margin: 0 auto;
+}
+
+p.centered {
+  text-align: center;
+  color: #666971;
+  line-height: 20px;
+}
+
+.research .row {
+  margin-bottom: 70px;
+}
+
+.image.ls-sketches {
+  background-image: url(../images/ls/sketches.png);
+  background-size: cover;
+}
+
+.sketches .twelve h5 {
+  margin-bottom: 50px;
+}
+
+.image.ls-wires {
+  background-image: url(../images/gc/wireframes.png);
+  background-size: cover;
+}
+
+img.symbol {
+  float: left;
+  padding-right: 30px;
+}
+
+.elements {
+  margin-top: 145px;
+}
+
+.ui-design {
+  margin-top: 100px;
+}
+
+.promotion .twelve h5 {
+  margin-bottom: 50px;
+}
+
+.mac {
+margin-bottom: 70px;
+}
+
+.mac img {
+  margin: 0 auto;
+  text-align: center;
+}
 
 
 /* Media Queries
