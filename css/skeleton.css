@@ -630,7 +630,20 @@ div#contact  {
   padding-top: 10px;
 }
 
+/* Case Studies
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.header .title {
+  margin-top: 0;
+}
+
+.header h1 {
+  padding-top: 50px;
+}
+
+.header h6 {
+  padding-top: 180px;
+}
 
 
 /* Media Queries
