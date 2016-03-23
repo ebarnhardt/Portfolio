@@ -470,8 +470,12 @@ header .nav ul li a:hover{
   float: left;
 }
 
-h1 {
-  padding-top: 225px;
+#header h1 {
+  padding-top: 100px;
+}
+
+#header h1.greeting {
+  padding-top: 150px;
 }
 
 .arrow {
@@ -639,6 +643,21 @@ div#contact  {
   padding-top: 80px;
 }
 
+.challenge {
+  background-color:#272A31;
+}
+
+.section h3 {
+  padding-top: 20px;
+}
+
+.section .twelve {
+  margin-top: 100px;
+}
+
+.section .twelve h5{
+  margin-bottom: 100px;
+}
 
 
 
