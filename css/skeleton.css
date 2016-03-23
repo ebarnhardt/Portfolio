@@ -415,13 +415,18 @@ h2 {
 
 h5 {
   font-weight:400;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
 }
 
 h6 {
   font-size: 14px;
   line-height: 16px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 30px;
 }
 
 h3 {
@@ -643,9 +648,12 @@ div#contact  {
   padding-top: 80px;
 }
 
-.challenge {
+.dark {
   background-color:#272A31;
 }
+
+.section.dark
+  {color: #FFF;}
 
 .section h3 {
   padding-top: 20px;
@@ -659,6 +667,51 @@ div#contact  {
   margin-bottom: 100px;
 }
 
+.light {
+  background-color:#F2F2F2;
+}
+
+.light h3 {color: #929292;}
+.light h6 {color: #929292;}
+.light h5 {color: #929292;}
+
+
+/* Persona Bio
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.persona {
+  position: relative;
+}
+
+.bio {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.bio h5 {
+  clear: both;
+  display: block;
+  text-align: left;
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.bio p {
+  clear: both;
+  text-align: left;
+  color: #FFF;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.bio h4 {
+  clear: both;
+}
+
+.bio h4 {
+  text-align: left;
+}
+
 
 
 /* LocalSound Case Study
@@ -669,6 +722,14 @@ div#contact  {
   background-size: cover;
   background-color: #565FBF;
 }
+
+.shawn {
+  clear: both;
+  background-image: url(../images/ls/guitar.png);
+  background-size: cover;
+  background-color: #565FBF;
+}
+
 
 
 /* Media Queries
