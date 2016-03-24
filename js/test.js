@@ -1,11 +1,11 @@
 
 $(function(){
     $(window).scroll(function() {
-        if ($(this).scrollTop() >= 169) {
-            $('.top').addClass('top-scrolled');
+        if ($(this).scrollTop() >= 600) {
+            $('.nav').addClass('nav-scrolled');
         }
         else {
-            $('.top').removeClass('top-scrolled');
+            $('.nav').removeClass('nav-scrolled');
         }
     });
 });
