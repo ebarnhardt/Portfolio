@@ -732,25 +732,48 @@ div#contact  {
   background-size: cover;
 }
 
+.features {
+  background-color: #565FBF;
+}
+
+.features .dark {
+  background-color:#565FBF;
+}
+
+.features h5 {
+  margin-bottom: 100px;
+}
+
+.features h3 {
+  margin-top: 100px;
+}
+
 h4.feature {
-  color: #3D414A;
+  color: #FFF;
   padding-top: 20px;
 }
 
 .icon {
   text-align: center;
   margin: 0 auto;
+  height:50px;
+  width: 50px;
 }
 
 p.centered {
   text-align: center;
-  color: #666971;
+  color: #FFF;
   line-height: 20px;
 }
 
-.research .row {
-  margin-bottom: 70px;
+.features .row {
+  margin-bottom: 50px;
 }
+
+.features .row:nth-child(3) {
+  margin-bottom: 100px;
+}
+
 
 .image.ls-sketches {
   background-image: url(../images/ls/sketches.png);
