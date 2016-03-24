@@ -855,6 +855,50 @@ margin-bottom: 70px;
   color: #929292;
 }
 
+/* Cabinet Case Study
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.c {
+  background-image: url(../images/c/hand.png);
+  background-size: cover;
+  background-color: #11C9C0;
+}
+
+#c-header {
+  height: 100vh;
+  background-size: cover;
+}
+
+.last {
+  padding: 50px 0 5px 0;
+}
+
+.terrence {
+  clear: both;
+  background-image: url(../images/c/terrence.png);
+  background-size: cover;
+}
+
+.c-flows .image{
+  background-image: url(../images/c/flows.png);
+  background-size: cover;
+  clear: both;
+}
+
+.c-wires {
+  background-image: url(../images/c/wireframes.png);
+  background-size: cover;
+  clear: both;
+}
+
+.cab {
+  margin-bottom: 0;
+}
+
+.test {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
