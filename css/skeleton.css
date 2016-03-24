@@ -486,7 +486,11 @@ header .nav ul li a:hover{
 .arrow {
   text-align: center;
   padding-top: 120px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
+
 
 /* Work
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -636,6 +640,33 @@ div#contact  {
   color: #666971;
   padding-top: 10px;
 }
+
+.ico {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 75px;
+  height: 75px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.icon-mono {
+  background: url("../images/icons2.png");
+  background-repeat: no-repeat;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+.icon-mono.mail {
+   background-position: 0 0;
+}
+
+.icon-mono.mail:hover {
+  background-position: 0 -98px;
+}
+
 
 /* Case Studies
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
