@@ -33,7 +33,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="js/test.js"></script>
 
 </head>
 <body>
@@ -42,16 +41,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div id="header">
   <div class="container">
-    <header class="twelve columns">
-       <div class="nav">
-          <ul>
-            <li><a class="text" href="#about">about me</a></li>
-            <li><a href="index.html"><img src="images/logo.png"/></a></li>
-  <li><a class="text" href="#contact">say hello</a></li>
-         </ul>
-      </div>
-
-    </header>
       <div class="title">
         <h1 class="greeting">Hello! I'm Brooke, 
         <br>
@@ -63,6 +52,17 @@
         <a href="#work"><img src="images/down-arrow.png" alt="down-arrow"/></a>
         </div>
   </div>
+
+      <header class="twelve columns">
+         <div class="nav home">
+            <ul>
+              <li><a class="text" href="#about">about me</a></li>
+              <li><a class="index" href="index.html"><img src="images/logo.png"/></a></li>
+              <li><a class="text" href="#contact">say hello</a></li>
+            </ul>
+      </div>
+      </header>
+
 </div>
 
    <!-- Work
@@ -217,6 +217,18 @@ I also occasionally do freelance projects for both print and web, so please reac
   </div>
 
 
+<script>
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 705) {
+            $('.home').addClass('home-scrolled');
+        }
+        else {
+            $('.home').removeClass('home-scrolled');
+        }
+    });
+});
+</script>
 
 
 <!-- End Document

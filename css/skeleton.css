@@ -447,6 +447,24 @@ h3 {
  left: 34%;
 }
 
+.home {
+  margin-top: 80px;
+
+}
+
+.home-scrolled {
+    position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-color: #3D414A;
+   z-index: 1000000;
+   margin: 0;
+   background-size: cover;
+   width: 100%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
 .case {
 background-color: #3D414A;
 }
@@ -473,8 +491,11 @@ background-color: #3D414A;
   margin-bottom: 0;
 }
 
+.index {
+  padding: 0px 40px 0 40px;
+}
+
 .nav ul li{
-  padding-right: 40px;
   display: inline;
 }
 
