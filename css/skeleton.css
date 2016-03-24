@@ -720,7 +720,9 @@ div#contact  {
 /* LocalSound Case Study
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.ls {
+#ls-header {
+  height: 100vh;
+  background-size: cover;
   background-image: url(../images/ls/singer2.png);
   background-size: cover;
   background-color: #565FBF;
@@ -774,14 +776,13 @@ p.centered {
   margin-bottom: 100px;
 }
 
-
 .image.ls-sketches {
   background-image: url(../images/ls/sketches.png);
   background-size: cover;
 }
 
 .sketches .twelve h5 {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .image.ls-wires {
@@ -815,6 +816,44 @@ margin-bottom: 70px;
   text-align: center;
 }
 
+
+/* Gear Closet Case Study
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.gc {
+  background-image: url(../images/gc/surf2.png);
+  background-size: cover;
+  background-color: #F7C734;
+}
+
+#gc-header {
+  height: 100vh;
+  background-size: cover;
+}
+
+.gc-flows {
+  background-image: url(../images/gc/flows.png);
+  background-size: cover;
+}
+
+.gc-wires {
+  background-image: url(../images/gc/wireframes.png);
+  background-size: cover;
+}
+
+.mockup .mac {
+  padding-top: 100px;
+}
+
+.gcc-wires {
+  background-image: url(../images/gc/closet-wireframes.png);
+  background-size: cover;
+}
+
+.button-gray {
+  border: 1px solid #929292;
+  color: #929292;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
