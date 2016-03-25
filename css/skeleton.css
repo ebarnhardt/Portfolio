@@ -442,35 +442,66 @@ h3 {
 }
 
 .nav {
- padding: 10px 0 -2px 0;
  text-align: center;
- left: 34%;
+ padding-top:12px;
+ padding-bottom: 5px;
 }
+
+/**Home Nav**/
 
 .home {
   margin-top: 80px;
+}
+
+.home ul li a {
+  color:#FFF;
+}
+
+.home ul li {
+  color:#FFF;
+}
+
+.index {
 
 }
 
 .home-scrolled {
-    position: fixed;
+  position: fixed;
   left: 0;
   top: 0;
   text-align: center;
-  background-color: #3D414A;
+  background-color: #FFF;
    z-index: 1000000;
    margin: 0;
    background-size: cover;
    width: 100%;
-    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+   box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
+.home-scrolled ul li a {
+    color:#929292;
+}
+
+/**Case Study Nav**/
 .case {
-background-color: #3D414A;
+background-color: #FFF;
 }
 
 .case ul li {
   padding-right: 0 !important;
+}
+
+.logo {
+  height: 50px;
+  padding:0 40px 0 40px;
+}
+
+.home-logo {
+  background-image: url(../images/logo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:500px;
+  float: right;
 }
 
 .nav-scrolled {
@@ -478,12 +509,12 @@ background-color: #3D414A;
   left: 0;
   top: 0;
   text-align: center;
-  background-color: #3D414A;
-   z-index: 1000000;
-   margin: 0;
-   background-size: cover;
-   width: 100%;
-    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background-color: #FFF;
+  z-index: 1000000;
+  margin: 0;
+  background-size: cover;
+  width: 100%;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
 .nav ul {
@@ -497,11 +528,11 @@ background-color: #3D414A;
 
 .nav ul li{
   display: inline;
+  height:500px;
 }
 
 .nav ul li a{
   text-decoration: none;
-  color: #FFF;
   font-weight: 500;
 }
 
@@ -531,12 +562,14 @@ a.text{
 
 a.prev {
   position: absolute;
-  left: 5px;
+  left: 10px;
+  padding-top: 3px;
 }
 
 a.next {
   position: absolute;
-  right: 5px;
+  right: 10px;
+  padding-top: 3px;
 }
 
 
