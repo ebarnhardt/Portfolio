@@ -895,6 +895,13 @@ margin-bottom: 70px;
   text-align: center;
 }
 
+p {
+  color:#929292;
+}
+
+.add-ons {
+  margin: 45px 0 30px 0;
+}
 
 /* Gear Closet Case Study
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -925,7 +932,7 @@ margin-bottom: 70px;
 }
 
 .gcc-wires {
-  background-image: url(../images/gc/closet-wireframes.png);
+  background-image: url(../images/gc/closet-wireframes2.png);
   background-size: cover;
 }
 
@@ -951,6 +958,19 @@ margin-bottom: 70px;
   padding: 50px 0 5px 0;
 }
 
+.three li {
+  color: #929292;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.three ul {
+  margin-bottom: 100px;
+}
+
+.one-half h5 {
+  color: #272A31;
+}
 .terrence {
   clear: both;
   background-image: url(../images/c/terrence.png);
@@ -964,7 +984,7 @@ margin-bottom: 70px;
 }
 
 .c-wires {
-  background-image: url(../images/c/wireframes.png);
+  background-image: url(../images/c/wireframes2.png);
   background-size: cover;
   clear: both;
 }
