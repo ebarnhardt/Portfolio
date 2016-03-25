@@ -442,7 +442,7 @@ h3 {
 }
 
 .nav {
- padding: 10px 0 5px 0;
+ padding: 10px 0 -2px 0;
  text-align: center;
  left: 34%;
 }
@@ -856,7 +856,7 @@ p.centered {
 }
 
 .image.ls-sketches {
-  background-image: url(../images/ls/sketches.png);
+  background-image: url(../images/ls/sketch.png);
   background-size: cover;
 }
 
@@ -865,7 +865,7 @@ p.centered {
 }
 
 .image.ls-wires {
-  background-image: url(../images/gc/wireframes.png);
+  background-image: url(../images/ls/wireframes.png);
   background-size: cover;
 }
 
@@ -911,7 +911,7 @@ margin-bottom: 70px;
 }
 
 .gc-flows {
-  background-image: url(../images/gc/flows.png);
+  background-image: url(../images/gc/flows.jpg);
   background-size: cover;
 }
 
@@ -958,7 +958,7 @@ margin-bottom: 70px;
 }
 
 .c-flows .image{
-  background-image: url(../images/c/flows.png);
+  background-image: url(../images/c/diagram.png);
   background-size: cover;
   clear: both;
 }
