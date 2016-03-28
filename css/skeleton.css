@@ -592,6 +592,20 @@ a.next {
   left: 0;
 }
 
+.title-left {
+  float: left;
+  width: 50%;
+  height: 500px;
+  right: 0;
+}
+
+.img-right {
+  height: 500px;
+  float: right;
+  width: 50%;
+  left: 0;
+}
+
 .title {
   width: 80%;
   margin: 0 auto;
@@ -648,7 +662,7 @@ a.next {
   background-color:#F7C734;
 }
 
-.gearcloset .title-right{
+.gearcloset .title-left{
   background-color:#F7C734;
 }
 
