@@ -745,7 +745,7 @@ div#contact  {
 }
 
 .icon-mono.mail:hover {
-  background-position: 0 -98ttpx;
+  background-position: 0 -98px;
 }
 
 
@@ -1001,7 +1001,7 @@ p {
   margin-bottom: 100px;
 }
 
-.one-half h5 {
+.list h5 {
   color: #272A31;
 }
 .terrence {
