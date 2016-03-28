@@ -393,12 +393,7 @@ hr {
 
 /* My Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body {
- margin-top: 0px;
- margin-right: 0px;
- margin-bottom: 0px;
- margin-left: 0px;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #FFF;
@@ -461,10 +456,6 @@ h3 {
   color:#FFF;
 }
 
-.index {
-
-}
-
 .home-scrolled {
   position: fixed;
   left: 0;
@@ -482,6 +473,24 @@ h3 {
     color:#929292;
 }
 
+.home-logo {
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:50px;
+  width:50px;
+  margin:0 30px 0 30px;
+}
+
+.home-scrolled .home-logo {
+  background-image: url(../images/logo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:50px;
+  width:50px;
+  margin:0 30px 0 30px;  
+}
+
 /**Case Study Nav**/
 .case {
 background-color: #FFF;
@@ -496,12 +505,8 @@ background-color: #FFF;
   padding:0 40px 0 40px;
 }
 
-.home-logo {
-  background-image: url(../images/logo2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:500px;
-  float: right;
+.nav li {
+margin-bottom:0;
 }
 
 .nav-scrolled {
@@ -512,7 +517,6 @@ background-color: #FFF;
   background-color: #FFF;
   z-index: 1000000;
   margin: 0;
-  background-size: cover;
   width: 100%;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
@@ -522,27 +526,25 @@ background-color: #FFF;
   margin-bottom: 0;
 }
 
-.index {
-  padding: 0px 40px 0 40px;
-}
-
 .nav ul li{
-  display: inline;
-  height:500px;
+  display: inline-block;
 }
 
 .nav ul li a{
   text-decoration: none;
   font-weight: 500;
+  display: inline-block;
 }
 
 .nav ul li a:hover{
  color: #1A9C95;
 }
 
-a.text{
+.text {
   vertical-align: 70%;
+  margin-bottom: 0;
 }
+
 
 #header h1 {
   padding-top: 100px;
@@ -563,13 +565,13 @@ a.text{
 a.prev {
   position: absolute;
   left: 10px;
-  padding-top: 3px;
+  top: 15px;
 }
 
 a.next {
   position: absolute;
   right: 10px;
-  padding-top: 3px;
+  top: 15px;
 }
 
 
