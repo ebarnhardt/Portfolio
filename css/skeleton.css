@@ -752,7 +752,7 @@ div#about  {
 }
 
 #about p {
-  color: #E7E7E7;
+  color: #C7C7C7;
   text-align: left;
 }
 
@@ -836,7 +836,7 @@ div#contact  {
 }
 
 #contact h5 {
-  color: #E7E7E7;
+  color: #C7C7C7;
 }
 
 .ico {
@@ -870,11 +870,11 @@ div#contact  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header .title {
-  padding-top: 140px;
+  padding-top: 20vh;
 }
 
 .header h1 {
-  padding-top: 70px;
+  padding-top: 8vh;
 }
 
 .header p {
@@ -884,6 +884,8 @@ div#contact  {
   font-weight: 400;
   padding-top: 30px;
   font-size: 14px;
+  width:60%;
+  margin: 0 auto;
 }
 
 .dark {
@@ -894,7 +896,7 @@ div#contact  {
   clear: both;
 }
 .section.dark
-  {color: #FFF;}
+  {color: #E7E7E7;}
 
 .section h3 {
   padding-top: 20px;
@@ -915,6 +917,10 @@ div#contact  {
 .light h3 {color: #929292;}
 .light h6 {color: #929292;}
 .light h5 {color: #929292;}
+
+#challenge h5{
+  color: #C7C7C7;
+}
 
 
 /* Persona Bio
@@ -1304,3 +1310,32 @@ padding-top: 23vh;
 }
 }
 
+/* CASE STUDIES RESPONSIVE */
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .wrapper {
+    right: 50%;
+    margin-right: -512px; 
+  }
+     #ls-header {
+    left: 50%;
+    margin-left: -512px; 
+  }
+     #gc-header {
+    left: 50%;
+    margin-left: -512px; 
+  }
+     #c-header {
+    left: 50%;
+    margin-left: -512px; 
+  }
+
+  .header p {
+    width:50%;
+  }
+
+.header h5 {
+  width:40%;
+  margin: 0 auto;
+}
+
+}
