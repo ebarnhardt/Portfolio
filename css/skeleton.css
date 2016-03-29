@@ -935,7 +935,7 @@ div#contact  {
   left: 50px;
 }
 
-.bio h5 {
+.bio h6 {
   clear: both;
   display: block;
   text-align: left;
@@ -959,6 +959,9 @@ div#contact  {
   text-align: left;
 }
 
+.image {
+  height: 500px;
+}
 
 
 /* LocalSound Case Study
@@ -1069,6 +1072,7 @@ margin-bottom: 70px;
 .mac img {
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 p {
@@ -1145,14 +1149,22 @@ p {
   background-size: cover;
 }
 
+.benefits {
+  margin-top: 40px;
+}
+
+.survey img{
+  width: 100%;
+}
+
 .last {
   padding: 50px 0 5px 0;
 }
 
 .three li {
   color: #929292;
-  text-align: center;
   margin-bottom: 0;
+
 }
 
 .three ul {
@@ -1160,8 +1172,9 @@ p {
 }
 
 .list h5 {
-  color: #272A31;
+  color: #666971;
 }
+
 .terrence {
   clear: both;
   background-image: url(../images/c/terrence.png);
@@ -1171,13 +1184,10 @@ p {
   background-size: cover;
 }
 
-.c-flows .image{
+.c-flows .image {
   background-image: url(../images/c/diagram.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  clear: both;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .c-wires {
@@ -1215,13 +1225,55 @@ there.
 }
 }
 
-@media (min-width : 320px) and (max-width : 500px) {
+/* small screens */
+@media (min-width : 320px) and (max-width : 550px) {
 #header h1.greeting {
   font-size:250%;
 }
 #header .title {
   padding-top: 29vh;
 }
+
+.bio {
+  left: 0 !important;
+  top: 10vh;
+}
+.bio h4 {
+  text-align: center;
+}
+
+.bio h6{
+  text-align: center;
+}
+
+.bio p {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.last {
+  display: none;
+  padding-top: 0;
+}
+
+.survey img {
+  padding-bottom: 40px;
+  width: 50%;
+ margin: 0 auto;
+ text-align: center;
+ display: inherit;
+}
+
+.benefits li {
+  display: inline;
+  padding: 5px;
+}
+
+.c-flows {
+  margin-bottom: -100px;
+}
+
 }
 
 @media (min-width : 500px) and (max-width : 716px) {
@@ -1297,6 +1349,18 @@ padding-top: 23vh;
   background: url(../images/cabinet.png) no-repeat center center;
   background-color:#11C9C0;
 }
+
+/* cabinet Responsiveness */
+.benefits li {
+  font-size: 60%;
+}
+.benefits h5 {
+  font-size: 80%;
+}
+
+.c-flows .image {
+  height: 300px;
+}
 }
 
 /* Homepage About me Responsiveness */
@@ -1308,6 +1372,27 @@ padding-top: 23vh;
 .favorites {
   display: none;
 }
+.benefits {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.ben {
+  display: none;
+}
+
+.benefits .three ul {
+  margin-bottom: 15px;
+}
+
+.benefits li {
+  font-size: 100%;
+}
+
+.benefits h5 {
+  font-size: 100%;
+}
+
 }
 
 /* CASE STUDIES RESPONSIVE */
@@ -1336,6 +1421,21 @@ padding-top: 23vh;
 .header h5 {
   width:40%;
   margin: 0 auto;
+}
+
+.image {
+    left: 50%;
+    margin-left: -200px; 
+}
+
+.bio p {
+  width: 70%;
+}
+
+.bio {
+  bottom: 0px;
+  left: 40px;
+  text-align: center;
 }
 
 }
