@@ -403,29 +403,38 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+/**
 h2 {
   font-size: 50px;
   line-height: 52px;
 }
+**/
+
 
 h5 {
   font-weight:400;
+  /**
   font-size: 18px;
   line-height: 30px;
+  **/
 }
 
+
+/**
 h6 {
   font-size: 14px;
   line-height: 16px;
 }
+**/
 
+/**
 h4 {
   font-size: 24px;
   line-height: 30px;
 }
-
+**/
 h3 {
-  padding: 80px 0 20px 0;
+  padding: 100px 0 20px 0;
 }
 
 /* Header
@@ -437,7 +446,7 @@ h3 {
 }
 
 #header .title {
-  padding-top:110px;
+  padding-top:32vh;
 }
 
 .nav {
@@ -449,7 +458,7 @@ h3 {
 /**Home Nav**/
 
 .home {
-  margin-top: 70px;
+  margin: 20px 20px 0 0;
 }
 
 .home ul li a {
@@ -549,18 +558,25 @@ margin-bottom:0;
   margin-bottom: 0;
 }
 
-
-#header h1 {
-  padding-top: 100px;
+#header h1.greeting {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 340%;
 }
 
-#header h1.greeting {
-  padding-top: 150px;
+#header .container {
+  height:100vh;
 }
 
 .arrow {
   text-align: center;
-  padding-top: 120px;
+  position: absolute;
+  bottom: 15px;
+  z-index: 2;
+  width:45px;
+  left: 50%;
+  margin-left: -22.5px;
+  padding:0;
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
@@ -691,14 +707,13 @@ a.next {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#graphic  {
   clear: both;
-  height: 400px;
   background-color:#F7C734;
 }
 
 .more {
   text-align: center;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 0 100px 0;
 }
 
 
@@ -706,14 +721,21 @@ div#graphic  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#about  {
   clear: both;
-  height: 850px;
   background-color:#3D414A;
+}
+
+.favorites {
+  margin: 70px 0 30px 0;
 }
 
 #about h5 {
   text-align: left;
 }
 
+#about p {
+  color: #fff;
+  text-align: left;
+}
 
 #about .six {
   display: inline;
@@ -732,7 +754,6 @@ div#about  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 div#contact  {
   clear: both;
-  height: 450px;
   background-color:#272A31;
 }
 
@@ -1070,17 +1091,25 @@ there.
 */
 
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 1072px) {
+#header h1.greeting {
+  width: 100%;
+}
+}
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width : 320px) and (max-width : 500px) {
+#header h1.greeting {
+  font-size:250%;
+}
+#header .title {
+  padding-top: 29vh;
+}
+}
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width : 500px) and (max-width : 716px) {
+#header .title {
+padding-top: 23vh;
 
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+}
+}
