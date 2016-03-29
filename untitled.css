@@ -728,7 +728,7 @@ div#about  {
 }
 
 .favorites {
-  margin: 70px 0 30px 0;
+  margin: 70px auto 30px auto;
 }
 
 #about h5 {
@@ -1083,7 +1083,6 @@ p {
   text-align: center;
   margin-bottom: 100px;
 }
-
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -1118,10 +1117,60 @@ padding-top: 23vh;
 
 /* Homepage Work Blocks Responsiveness */
 @media (max-width : 980px) {
-#header h1.greeting {
-  font-size:250%;
+  
+.title-right {
+  float: none;
+  width:100%;
+  height:100vh;
 }
-#header .title {
-  padding-top: 29vh;
+
+.img-left {
+  float: none;
+  width:100%;
+  display:none;
 }
+
+.title-left {
+  float: none;
+  width:100%;
+}
+
+.img-right {
+  float: none;
+  width:100%;
+  display:none;
+}
+
+#work .title{
+  height:100vh;
+  width:100%;
+}
+
+.localsound .title{
+  background-color: rgba(86,94,191,0.9);
+}
+
+.localsound .title-right{
+  background: url(../images/local-sound2.png) no-repeat center center;
+  background-color:#565FBF;
+}
+
+.gearcloset .title{
+  background-color: rgba(247,199,52,0.9);
+}
+
+.gearcloset .title-left{
+  background: url(../images/gear-grid.png) no-repeat center center;
+  background-color:#F7C734;
+}
+
+.cabinet .title{;
+  background: rgba(16,201,192,0.9);
+}
+
+.cabinet .title-right{
+  background: url(../images/cabinet.png) no-repeat center center;
+  background-color:#11C9C0;
+}
+
 }

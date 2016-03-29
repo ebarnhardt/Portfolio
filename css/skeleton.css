@@ -744,7 +744,7 @@ div#about  {
 }
 
 .favorites {
-  margin: 70px 0 30px 0;
+  margin: 30px 0 30px 0;
 }
 
 #about h5 {
@@ -752,15 +752,18 @@ div#about  {
 }
 
 #about p {
-  color: #fff;
+  color: #E7E7E7;
   text-align: left;
 }
 
-#about .six {
+#about .two {
   display: inline;
-  height: 100px;
-  width: 100px;
-  padding-left: 100px;
+}
+
+.favorite {
+ display:inline-block;
+  height:100px;
+  width:100px;
 }
 
 #about .row {
@@ -768,6 +771,56 @@ div#about  {
   text-align: center;
   margin-top: 0;
 }
+
+.teapot {
+  background: url(../images/teapot.png) no-repeat center center; 
+}
+
+.record {
+  background: url(../images/record.png) no-repeat center center; 
+}
+
+.bike {
+  background: url(../images/bike.png) no-repeat center center; 
+}
+
+.mountains {
+  background: url(../images/mountains.png) no-repeat center center; 
+}
+
+.type {
+  background: url(../images/&.png) no-repeat center center; 
+}
+
+.travel {
+  background: url(../images/backpack.png) no-repeat center center; 
+}
+
+.ski {
+  background: url(../images/skis.png) no-repeat center center; 
+}
+
+.rain {
+  background: url(../images/rain.png) no-repeat center center; 
+}
+
+.beer {
+  background: url(../images/beer.png) no-repeat center center; 
+}
+
+.fitness {
+  background: url(../images/fitness.png) no-repeat center center; 
+}
+
+.cheese {
+  background: url(../images/cheese.png) no-repeat center center; 
+}
+
+.herbs {
+  background: url(../images/herbs.png) no-repeat center center; 
+}
+
+
 
 /* Contact
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -780,6 +833,10 @@ div#contact  {
   font-size: 14px;
   color: #666971;
   padding-top: 10px;
+}
+
+#contact h5 {
+  color: #E7E7E7;
 }
 
 .ico {
@@ -1234,6 +1291,16 @@ padding-top: 23vh;
   background: url(../images/cabinet.png) no-repeat center center;
   background-color:#11C9C0;
 }
+}
 
+/* Homepage About me Responsiveness */
+@media (max-width : 550px) {
+#about p {
+  text-align: center;
+}
+
+.favorites {
+  display: none;
+}
 }
 
