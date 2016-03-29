@@ -1,3 +1,5 @@
+/* My Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -442,9 +444,6 @@ h3 {
 #header {
   background-color: #11C9C0;
   height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -492,9 +491,6 @@ h3 {
 .home-logo {
   background-image: url(../images/logo.png);
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-repeat: no-repeat;
   height:50px;
   width:50px;
@@ -504,9 +500,6 @@ h3 {
 .home-scrolled .home-logo {
   background-image: url(../images/logo2.png);
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-repeat: no-repeat;
   height:50px;
   width:50px;
@@ -667,9 +660,6 @@ a.next {
   background: url(../images/local-sound3.png);
   background-color: #272A31; 
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -688,9 +678,6 @@ a.next {
   background: url(../images/gear-grid.png);
   background-color: #FFF; 
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -712,9 +699,6 @@ a.next {
   background: url(../images/cabinet.png);
   background-color: #FFF; 
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -797,7 +781,7 @@ div#contact  {
   background: url("../images/icons2.png");
   background-repeat: no-repeat;
   -webkit-transition: background 0.3s;
-  transition: background 0.3s;
+          transition: background 0.3s;
 }
 
 .icon-mono.mail {
@@ -903,20 +887,15 @@ div#contact  {
 
 #ls-header {
   height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-image: url(../images/ls/singer2.png);
+  background-size: cover;
   background-color: #565FBF;
 }
 
 .shawn {
   clear: both;
   background-image: url(../images/ls/guitar.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -964,9 +943,6 @@ p.centered {
 
 .image.ls-sketches {
   background-image: url(../images/ls/sketch.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -976,9 +952,6 @@ p.centered {
 
 .image.ls-wires {
   background-image: url(../images/ls/wireframes.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -1021,9 +994,6 @@ p {
 
 .gc {
   background-image: url(../images/gc/surf2.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-color: #F7C734;
 }
@@ -1035,17 +1005,11 @@ p {
 
 .gc-flows {
   background-image: url(../images/gc/flows.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .gc-wires {
   background-image: url(../images/gc/wireframes.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -1055,9 +1019,6 @@ p {
 
 .gcc-wires {
   background-image: url(../images/gc/closet-wireframes2.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -1070,9 +1031,6 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .c {
   background-image: url(../images/c/hand.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-color: #11C9C0;
 }
@@ -1102,26 +1060,17 @@ p {
 .terrence {
   clear: both;
   background-image: url(../images/c/terrence.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 .c-flows .image{
   background-image: url(../images/c/diagram.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   clear: both;
 }
 
 .c-wires {
   background-image: url(../images/c/wireframes2.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   clear: both;
 }
@@ -1169,71 +1118,10 @@ padding-top: 23vh;
 
 /* Homepage Work Blocks Responsiveness */
 @media (max-width : 980px) {
-  
-.title-right {
-  float: none;
-  width:100%;
-  height:inherit;
+#header h1.greeting {
+  font-size:250%;
 }
-
-.img-left {
-  float: none;
-  width:100%;
-  display:none;
+#header .title {
+  padding-top: 29vh;
 }
-
-.title-left {
-  float: none;
-  width:100%;
-  height:inherit;
 }
-
-.img-right {
-  float: none;
-  width:100%;
-  display:none;
-}
-
-#work .title{
-  padding: 20vh 0;
-  width:100%;
-}
-
-#work .title h5 {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.localsound .title{
-  background-color: rgba(86,94,191,0.9);
-}
-
-.localsound .title-right{
-  background: url(../images/local-sound.png) no-repeat center center;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color:#565FBF;
-}
-
-.gearcloset .title{
-  background-color: rgba(247,199,52,0.9);
-}
-
-.gearcloset .title-left{
-  background: url(../images/gear-grid.png) no-repeat center center;
-  background-color:#F7C734;
-}
-
-.cabinet .title{;
-  background: rgba(16,201,192,0.9);
-}
-
-.cabinet .title-right{
-  background: url(../images/cabinet.png) no-repeat center center;
-  background-color:#11C9C0;
-}
-
-}
-
