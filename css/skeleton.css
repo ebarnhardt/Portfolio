@@ -436,6 +436,10 @@ h3 {
   background-size: cover;
 }
 
+#header .title {
+  padding-top:110px;
+}
+
 .nav {
  text-align: center;
  padding-top:12px;
@@ -445,7 +449,7 @@ h3 {
 /**Home Nav**/
 
 .home {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .home ul li a {
@@ -610,7 +614,7 @@ a.next {
   width: 80%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 130px;
 }
 
 .title h2 {
