@@ -895,8 +895,12 @@ div#contact  {
 .section {
   clear: both;
 }
-.section.dark
-  {color: #E7E7E7;}
+.section.dark{
+  }
+
+.section.dark h5 {
+color: #C7C7C7;;
+}
 
 .section h3 {
   padding-top: 20px;
@@ -927,6 +931,7 @@ div#contact  {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .persona {
   position: relative;
+  width:100%;
 }
 
 .bio {
@@ -963,6 +968,9 @@ div#contact  {
   height: 500px;
 }
 
+.row.gear {
+  margin-top: 2.5%;
+}
 
 /* LocalSound Case Study
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1133,6 +1141,10 @@ p {
   background-size: cover;
 }
 
+.gc-promotion img{
+  width: 100%;
+}
+
 .button-gray {
   border: 1px solid #929292;
   color: #929292;
@@ -1208,9 +1220,17 @@ p {
   margin-bottom: 0;
 }
 
-.test {
+.testing .twelve {
+  margin: 100px 0 20px 0;
+}
+
+.testing .twelve.test {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 0 0 100px 0;
+}
+
+.test img {
+    width:100%;
 }
 
 /* Media Queries
@@ -1292,6 +1312,18 @@ h4.feature {
   margin-bottom: -100px;
 }
 
+.gear:nth-child(odd){
+display: none;
+}
+
+.testing .twelve.test {
+  margin-top: 0;
+}
+
+.testing .twelve {
+  margin-bottom: 0;
+}
+
 }
 
 @media (min-width : 500px) and (max-width : 716px) {
@@ -1352,6 +1384,18 @@ padding-top: 23vh;
 
 h5.feature {
   font-size: 140%;
+  line-height: 115%;
+  margin-bottom:10px;
+  padding-top:0;
+}
+
+.icon {
+  padding-top:10px;
+  margin-bottom: 0;
+}
+
+.features .row {
+  margin-bottom: 0;
 }
 
 .ui-design .one-half {
