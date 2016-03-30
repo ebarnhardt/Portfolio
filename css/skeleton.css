@@ -1002,9 +1002,10 @@ div#contact  {
   margin-top: 100px;
 }
 
-h4.feature {
+h5.feature {
   color: #FFF;
   padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .icon {
@@ -1055,6 +1056,10 @@ img.symbol {
 
 .elements {
   margin-top: 145px;
+}
+
+img.half {
+  width:100%;
 }
 
 .ui-design {
@@ -1227,6 +1232,7 @@ there.
 
 /* small screens */
 @media (min-width : 320px) and (max-width : 550px) {
+
 #header h1.greeting {
   font-size:250%;
 }
@@ -1250,6 +1256,18 @@ there.
   text-align: center;
   margin: 0 auto;
   width: 50%;
+}
+
+.features h5 {
+  margin-bottom: 50px;
+}
+
+h4.feature {
+  padding-top:0;
+}
+
+.features .icon {
+  padding-top:10px;
 }
 
 .last {
@@ -1330,6 +1348,19 @@ padding-top: 23vh;
   -o-background-size: cover;
   background-size: cover;
   background-color:#565FBF;
+}
+
+h5.feature {
+  font-size: 140%;
+}
+
+.ui-design .one-half {
+  margin: 0 auto;
+  float: none !important;
+}
+
+.elements {
+  clear: both;
 }
 
 .gearcloset .title{
