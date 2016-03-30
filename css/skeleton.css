@@ -656,14 +656,14 @@ a.next {
   position: relative;
 }
 
-.image {
+.img {
   height: 100vh;
   margin: 0 auto;
   padding-left: 50%;
 }
 
 /* LocalSound */
-.localsound .image {
+.localsound .img {
   background: url(../images/local-sound3.png);
   background-color: #272A31; 
   background-repeat: no-repeat;
@@ -684,7 +684,7 @@ a.next {
 
 /* Gear Closet */
 
-.gearcloset .image {
+.gearcloset .img {
   background: url(../images/gear-grid.png);
   background-color: #FFF; 
   background-repeat: no-repeat;
@@ -708,7 +708,7 @@ a.next {
   background-color:#11C9C0;
 }
 
-.cabinet .image {
+.cabinet .img {
   background: url(../images/cabinet.png);
   background-color: #FFF; 
   background-repeat: no-repeat;
@@ -1006,6 +1006,10 @@ color: #C7C7C7;;
   margin-bottom: 100px;
 }
 
+.features .section.dark h5{
+  color: #FFF;
+}
+
 .features h3 {
   margin-top: 100px;
 }
@@ -1253,9 +1257,26 @@ there.
 /* small screens */
 @media (min-width : 320px) and (max-width : 550px) {
 
+.section .twelve h5 {
+  margin-bottom: 0;
+}
+
+.section .twelve h6 {
+  margin-top: 0px;
+}
+
+.more {
+  padding-bottom:50px;
+}
+
+.section .twelve {
+  margin: 70px 0 70px 0;
+}
+
 #header h1.greeting {
   font-size:250%;
 }
+
 #header .title {
   padding-top: 29vh;
 }
@@ -1297,15 +1318,28 @@ h4.feature {
 
 .survey img {
   padding-bottom: 40px;
-  width: 50%;
+  width: 80%;
  margin: 0 auto;
  text-align: center;
  display: inherit;
 }
 
-.benefits li {
-  display: inline;
-  padding: 5px;
+.benefits .columns {
+  width: 50%;
+}
+
+.benefits {
+margin-bottom: 50px;
+}
+
+ul.pain1 {
+  display:inline-block;
+  float:left;
+}
+
+ul.pain2 {
+  display:inline-block;
+  float:right;
 }
 
 .c-flows {
@@ -1317,13 +1351,12 @@ display: none;
 }
 
 .testing .twelve.test {
-  margin-top: 0;
+  margin-top: 50px;
 }
 
 .testing .twelve {
   margin-bottom: 0;
 }
-
 }
 
 @media (min-width : 500px) and (max-width : 716px) {
